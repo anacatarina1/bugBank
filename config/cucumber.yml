@@ -1,0 +1,8 @@
+default: -p dev 
+
+# ambiente
+dev: PLATFORM=dev -r features/support -r features/ -r features/step_definitions -r features/page -r config/dev --exclude config/hml   --tags "not @mock"
+prod: PLATFORM=prod -r features/support -r features/ -r features/step_definitions -r features/page -r config/prod --exclude config/dev --exclude config/hml  --tags "not @mock"
+
+# browser
+chrome: BROWSER=selenium_chrome
