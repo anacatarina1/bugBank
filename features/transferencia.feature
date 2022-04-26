@@ -2,11 +2,6 @@
 
 Funcionalidade: trasferência bancária
 
-Cenário: acessar a conta da Ana
-Dado que esteja na page do login do BugBank
-Quando entrar com o login da Ana
-Então acesso a conta da Ana
-
 Cenário: visualizar o formulário para fazer transferência
 Dado que tenha logado na conta da Ana
 Quando solicitar uma transferência

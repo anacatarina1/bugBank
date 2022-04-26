@@ -2,8 +2,9 @@
 class Transferencia < SitePrism::Page
     set_url ENVIRONMENT['TR']
     def initialize
-      @usuario = '[id="username"]'
-      @senha = '[id="password"]'
+      @usuario = '[placeholder="Informe seu e-mail"]'
+      @senha = '[placeholder="Informe sua senha"]'
+      @acesso_app_web = '[id="textAccountNumber"]'
     end
   
     def realizar_login(arg)
@@ -11,8 +12,9 @@ class Transferencia < SitePrism::Page
       password = CREDENTIALS[arg.tr(' ', '_').to_sym][:senha]
       first(@usuario).set user
       first(@senha).set password
-      click_button 'Entrar'
+      click_button 'Acessar'
     end
-  
+    def acesso_app_web
+      find(@acesso_app_web)
+    end
   end
-  

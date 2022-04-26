@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Plataforma BugBank</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="blue lighten-5">
+  <div class="row blue lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Plataforma BugBank">Plataforma BugBank</h5>
+    </div>
+
+    <div class="col m6 s12 blue lighten-1">
+      <ul class="tabs blue lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="blue lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>chegar na tela de registro de conta (2.359s)</h5>
+    features/transferencia.feature:5
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que tenha acessado a aplicação BugBank (1.141s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> fizer uma solicitação para registrar conta (0.057s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Então </b> estou na tela de registro de conta (0.019s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>registrar conta com sucesso (1.476s)</h5>
+    features/transferencia.feature:10
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que estou na tela de registro de conta (0.358s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step failed">
+  
+
+  <b>E </b> ter todos os campos preenchidos (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>undefined method `form_campos&#39; for #&lt;Transferencia:0x00007ff3c38d96b8&gt;
+Did you mean?  form_conta (NoMethodError)
+./features/step_definitions/transferencia_step.rb:26:in `nil&#39;
+features/transferencia.feature:12:in `ter todos os campos preenchidos&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step skipped">
+  
+
+  <b>Quando </b> registrar a conta (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step skipped">
+  
+
+  <b>Então </b> terei uma conta registrada com sucesso (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>acessar a conta da Ana (11.665s)</h5>
+    features/transferencia.feature:16
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que esteja na page do login do BugBank (0.438s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> entrar com o login da Ana &quot;válido&quot; (0.308s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step failed">
+  
+
+  <b>Então </b> acesso a conta da Ana (10.016s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=100.0.4896.127) (Selenium::WebDriver::Error::InvalidSelectorError)
+0   chromedriver                        0x00000001098553d9 chromedriver + 5104601
+1   chromedriver                        0x00000001097e5bf3 chromedriver + 4647923
+2   chromedriver                        0x00000001093d6b48 chromedriver + 392008
+3   chromedriver                        0x00000001093d9a87 chromedriver + 404103
+4   chromedriver                        0x00000001093d9926 chromedriver + 403750
+5   chromedriver                        0x00000001093d9bec chromedriver + 404460
+6   chromedriver                        0x000000010940bb44 chromedriver + 609092
+7   chromedriver                        0x000000010940bfe1 chromedriver + 610273
+8   chromedriver                        0x000000010943e3b1 chromedriver + 816049
+9   chromedriver                        0x00000001094296ed chromedriver + 730861
+10  chromedriver                        0x000000010943c091 chromedriver + 807057
+11  chromedriver                        0x00000001094295b3 chromedriver + 730547
+12  chromedriver                        0x00000001093ff139 chromedriver + 557369
+13  chromedriver                        0x0000000109400165 chromedriver + 561509
+14  chromedriver                        0x000000010981439d chromedriver + 4838301
+15  chromedriver                        0x000000010982ccde chromedriver + 4938974
+16  chromedriver                        0x0000000109831b5e chromedriver + 4959070
+17  chromedriver                        0x000000010982d94a chromedriver + 4942154
+18  chromedriver                        0x000000010980933c chromedriver + 4793148
+19  chromedriver                        0x00000001098473b8 chromedriver + 5047224
+20  chromedriver                        0x000000010984753f chromedriver + 5047615
+21  chromedriver                        0x000000010985c705 chromedriver + 5134085
+22  libsystem_pthread.dylib             0x00007fff6b856109 _pthread_start + 148
+23  libsystem_pthread.dylib             0x00007fff6b851b8b thread_start + 15
+./features/page/transferencia_page.rb:25:in `acesso_app_web&#39;
+./features/step_definitions/transferencia_step.rb:49:in `nil&#39;
+features/transferencia.feature:19:in `acesso a conta da Ana&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>visualizar o formulário para fazer transferência (0.357s)</h5>
+    features/transferencia.feature:21
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Dado </b> que tenha logado na conta da Ana (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Quando </b> solicitar uma transferência (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Então </b> vejo o formulário para transferência (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s4" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+
+    <h5>fazer transferência da conta da Ana para a conta do Marcos (0.385s)</h5>
+    features/transferencia.feature:26
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Dado </b> que esteja vendo o formulário para transferência (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>E </b> tenha informado os dados da conta do Marcos (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Quando </b> confirmar a transferência (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step undefined">
+  
+
+  <b>Então </b> vejo a msn Transferencia realizada com sucesso (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f0s2').modal();
+        
+        $('#g0f0s3').modal();
+        
+        $('#g0f0s4').modal();
+        
+        $('#g0f0s5').modal();
+        
+    });
+</script>
+
+
+    <main class="blue lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 blue lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>16.241s</td></tr>
+      
+          <tr>
+            <th>browser</th>
+            <td>Chrome</td>
+          </tr>
+      
+          <tr>
+            <th>Environment</th>
+            <td>dev</td>
+          </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 blue lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature broken">
+  <div class="collapsible-header blue lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;trasferência bancária&nbsp;(16.241s)
+  </div>
+
+  <div class="collapsible-body blue lighten-4">
+    <div class="collection scenarioList blue">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
+          <b>Cenário</b> chegar na tela de registro de conta&nbsp;(2.359s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s1">
+          <b>Cenário</b> registrar conta com sucesso&nbsp;(1.476s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s2">
+          <b>Cenário</b> acessar a conta da Ana&nbsp;(11.665s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text undefined" href="#g0f0s3">
+          <b>Cenário</b> visualizar o formulário para fazer transferência&nbsp;(0.357s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text undefined" href="#g0f0s4">
+          <b>Cenário</b> fazer transferência da conta da Ana para a conta do Marcos&nbsp;(0.385s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 blue lighten-5">
+          <table id="summaryTable" class="bordered blue lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  trasferência bancária
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  chegar na tela de registro de conta
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  trasferência bancária
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s1">
+  registrar conta com sucesso
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      undefined method `form_campos&#39; for #&lt;Transferencia:0x00007ff3c38d96b8&gt;
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  trasferência bancária
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s2">
+  acessar a conta da Ana
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      invalid selector: An invalid or illegal selector was specified
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="undefined">
+            <td class="hide-on-small-only">
+  trasferência bancária
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s3">
+  visualizar o formulário para fazer transferência
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  undefined
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="undefined">
+            <td class="hide-on-small-only">
+  trasferência bancária
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s4">
+  fazer transferência da conta da Ana para a conta do Marcos
+</td>
+
+<td class="hide">
+  
+</td>
+
+<td class="uppercase">
+  undefined
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 blue lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+      <li class="error">
+  <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+    <i class="material-icons">bug_report</i>undefined method `form_campos&#39; for #&lt;Transferencia:0x00007ff3c38d96b8&gt;
+  </div>
+
+  <div class="collapsible-body blue lighten-4">
+    <div class="collection failedScenarioList">
+      
+          
+              
+          
+              
+                  
+                      <a class="collection-item failedScenario blue lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s1">
+                        <i class="material-icons">highlight_off</i>&nbsp;registrar conta com sucesso
+                      </a>
+                  
+              
+          
+              
+                  
+              
+          
+              
+          
+              
+          
+      
+    </div>
+  </div>
+</li>
+
+  
+      <li class="error">
+  <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+    <i class="material-icons">bug_report</i>invalid selector: An invalid or illegal selector was specified
+  </div>
+
+  <div class="collapsible-body blue lighten-4">
+    <div class="collection failedScenarioList">
+      
+          
+              
+          
+              
+                  
+              
+          
+              
+                  
+                      <a class="collection-item failedScenario blue lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s2">
+                        <i class="material-icons">highlight_off</i>&nbsp;acessar a conta da Ana
+                      </a>
+                  
+              
+          
+              
+          
+              
+          
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer blue lighten-4">
+  <div class="footer-copyright blue lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
