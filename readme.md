@@ -22,7 +22,7 @@ Após o download no link acima copie o driver e cole nessa pasta
 ```
 
 
-## Como rodar os testes :
+## Como rodar os testes:
 
 # 1 - Navegue no projeto até o arquivo Gemfile em seguida execute o comando 
 ```
@@ -32,7 +32,7 @@ bundle install
 * Ambiente de Desenvolvimento
 ```
 cucumber -p dev --publish-quiet features/
-
+```
 Obs: '--publish-quiet' serve para não exibir o anúncio no Terminal quando executa os testes. Tem a opção de rodar os testes sem pôr o '--publish-quiet'.
 
 * Ambiente de Produção
@@ -40,18 +40,18 @@ Obs: '--publish-quiet' serve para não exibir o anúncio no Terminal quando exec
 cucumber -p prod -t @prod
 ```
 
-# 3 - Para rodar features especificas execute o comando 
+# 3 - Para rodar features especificas execute o comando: 
 
 ```
 cucumber -p dev features/nome_do_arquivo.feature
 ```
-# 4 - Para rodar um cenário especifico execute o comando
+# 4 - Para rodar um cenário especifico execute o comando:
 
 ```
 cucumber -p dev features/nome_do_arquivo.feature:24
 ```
 
-# 5 - Para rodar por tags execute o comando
+# 5 - Para rodar por tags execute o comando:
 ```
 cucumber -p dev --tags @nome_da_tag
 ```
@@ -60,8 +60,8 @@ cucumber -p dev --tags @nome_da_tag
 ```
 npm install -g feature-express 
 ```
-```
-# 6.1 - Levantar o browser com as features
+
+# 6.1 - Levantar o browser com as features # 2 - Para rodar todas as features execute o comando
 ```
  feature-express ./ pt 4444
 ```
@@ -82,24 +82,22 @@ abrir o arquivo report.html em qualquer browser
 
 # 9 - Rodando lint de código com o Rubocop
 
-Instalando o rubocop
-
-
+# 9.1 Instalando o rubocop
 ```
 gem install rubocop
 ```
 
-Executando Rubocop em todo projeto
+# 9.2 Executando Rubocop em todo projeto
 ```
 rubocop
 ```
 
-Executando Rubocop em um arquivo único 
+# 9.3 Executando Rubocop em um arquivo único 
 ```
 rubocop  /Users/danilopolicarpo/dev/odete-test-react/features/support/hooks.rb
 ```
 
-Sugestão de correção do Rubocop no arquivo 
+# 9.4 Sugestão de correção do Rubocop no arquivo 
 ```
 rubocop --auto-correct  /Users/danilopolicarpo/dev/odete-test-react/features/support/hooks.rb
 ```
