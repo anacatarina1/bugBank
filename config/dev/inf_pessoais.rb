@@ -3,7 +3,7 @@
 PERSONAL_INFORMATION = {
   corretamente: {
     email: 'catarinakary@hotmail.com',
-    nome: 'Ana',
+    name: 'Ana',
     senha: 'anaconta1',
     conf_senha: 'anaconta1'
 }}.freeze
